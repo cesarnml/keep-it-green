@@ -1,8 +1,6 @@
-cd Desktop;
-cd keep-it-green;
-echo 'lets get this grreen' >> README.md
-env -i git status;
+cd /Users/cesar/keep-it-green;
+echo 'keep this grreen' >> README.md
 git add --all;
 git status;
-git commit -m "$ stay with the green" && \
+git commit -m "stay with the green";
 git push;
